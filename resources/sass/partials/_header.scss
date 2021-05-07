@@ -1,0 +1,32 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+
+    img {
+        width: 200px; 
+    }
+}
+
+.main-nav {
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        list-style: none;
+
+        li {
+            .active {
+                background-color: $secondary_color;
+            }
+
+            a {
+                color: #000;
+                text-decoration: none;
+                font-size: 22px;
+                padding: 15px;
+            }
+        }
+        
+    }
+}
