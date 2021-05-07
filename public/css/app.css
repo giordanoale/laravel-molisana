@@ -9,8 +9,14 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
+}
+
+h2 {
+  color: #002d73;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .logo {
@@ -28,6 +34,9 @@ body {
   flex-direction: row;
   list-style: none;
 }
+.main-nav ul li {
+  padding: 15px 0;
+}
 .main-nav ul li .active {
   background-color: #b2e5fc;
 }
@@ -36,4 +45,22 @@ body {
   text-decoration: none;
   font-size: 22px;
   padding: 15px;
+}
+
+main {
+  padding: 20px 0;
+  background-image: url("../images/fondo-pag-speciali.jpg");
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards .card {
+  width: calc((100% / 3) - 20px);
+  margin: 10px;
+}
+.cards .card img {
+  width: 100%;
 }

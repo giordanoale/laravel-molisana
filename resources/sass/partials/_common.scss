@@ -9,6 +9,12 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
+}
+
+h2 {
+    color: $main_color;
+    text-transform: uppercase;
+    font-weight: 400;
 }
