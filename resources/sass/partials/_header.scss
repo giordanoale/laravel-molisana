@@ -17,8 +17,11 @@
 
         li {
             padding: 15px 0;
-            .active {
+            :hover {
                 background-color: $secondary_color;
+            }
+            .active {
+                background-color: $background_color;
             }
 
             a {

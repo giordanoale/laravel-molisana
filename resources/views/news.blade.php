@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-<div>Work in progress</div>
+<div class="container flex">
+    <h1>Work in progress</h1>
+</div>
 @endsection

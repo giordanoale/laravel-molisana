@@ -1,0 +1,28 @@
+footer {
+    padding: 80px 0 120px 0;
+    background-image: url("../images/footer-montagne-bottom.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 100%;
+
+    div {
+        width: calc((100% / 3) - 10px);
+        font-size: 13px;
+        color: $text-color;
+    }
+
+    h5 {
+        font-size: 22px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 10px 0;
+    }
+
+    ul {
+        li {
+            list-style: none;
+            margin-bottom: 5px;
+        }
+    }
+
+}

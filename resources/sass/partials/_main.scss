@@ -27,9 +27,9 @@ main {
 }
 
 .prodotto {
-    background-color: #BCDDE7;
+    background-color: $background_color;
     color: $main_color;
-    padding: 40px 50px;
+    padding: 40px 0;
     position: relative;
 
     h1{
@@ -40,6 +40,10 @@ main {
 
     img {
         width: 100%;
+        margin-bottom: -5px;
+    }
+    p {
+        padding: 20px 50px;
     }
 }
 
@@ -48,6 +52,10 @@ main {
     border-radius: 5px;
     padding: 20px 10px;
     position: absolute;
+
+    :hover {
+        color: $main_color;
+    }
 
     &.left{
         left: 0;
