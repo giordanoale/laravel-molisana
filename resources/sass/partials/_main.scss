@@ -30,6 +30,7 @@ main {
     background-color: #BCDDE7;
     color: $main_color;
     padding: 40px 50px;
+    position: relative;
 
     h1{
         font-weight: 400;
@@ -39,5 +40,27 @@ main {
 
     img {
         width: 100%;
+    }
+}
+
+.arrow {
+    background-color: rgba(255, 255, 255, 0.335);
+    border-radius: 5px;
+    padding: 20px 10px;
+    position: absolute;
+
+    &.left{
+        left: 0;
+        top: 50%;
+    }
+
+    &.right {
+        right: 0;
+        top: 50%;
+    }
+
+    i {
+        font-size: 60px;
+        color: #fff;
     }
 }

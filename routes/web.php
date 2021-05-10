@@ -49,9 +49,14 @@ Route::get('/prodotto/{id}', function($id) {
 
     $data = config('paste');
 
+    $next = ($id == (count($data) - 1)) ? 0 : $id + 1;
+    $prev = ($id == 0)? (count($data) - 1) : $id - 1;
+
     $pasta  = $data[$id];
     return view('prodotto', [
         'pasta' => $pasta,
+        'next' => $next,
+        'prev' => $prev,
     ]);
 })->where('id','[0-9]+')->name('prodotto');
 
