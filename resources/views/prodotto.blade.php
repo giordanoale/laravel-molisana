@@ -9,22 +9,30 @@
 @section('content')
 
 <section class="prodotto">
+
+    <!-- sezione prodotto -->
     <h1>{{$pasta['titolo']}}</h1>
     <img src="{{$pasta['src-h']}}" alt="{{$pasta['titolo']}}">
     <img src="{{$pasta['src-p']}}" alt="{{$pasta['titolo']}}">
     <p>{!! $pasta['descrizione'] !!}</p>
+    <!-- /sezione prodotto -->
 
+    <!-- freccia sinistra -->
     <div class="arrow left">
         <a href="{{route('prodotto', [ $prev ])}}">
             <i class="fas fa-chevron-left"></i>
         </a>
     </div>
+    <!-- /freccia sinistra -->
 
+    <!-- freccia destra -->
     <div class="arrow right">
         <a href="{{route('prodotto', [ $next ])}}">
             <i class="fas fa-chevron-right"></i>
         </a>
     </div>
+    <!-- /freccia destra -->
+
 </section>
 
 @endsection
