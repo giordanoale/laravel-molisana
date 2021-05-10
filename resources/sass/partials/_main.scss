@@ -25,3 +25,19 @@ main {
         }
     }
 }
+
+.prodotto {
+    background-color: #BCDDE7;
+    color: $main_color;
+    padding: 40px 50px;
+
+    h1{
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+    }
+}

@@ -75,3 +75,17 @@ main {
 .cards .card img {
   width: 100%;
 }
+
+.prodotto {
+  background-color: #BCDDE7;
+  color: #002d73;
+  padding: 40px 50px;
+}
+.prodotto h1 {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+.prodotto img {
+  width: 100%;
+}

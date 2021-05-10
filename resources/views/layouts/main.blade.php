@@ -25,9 +25,9 @@
     <!-- /intestazione -->
 
     <!-- corpo principale -->
-    <main>
-        @yield('content')
-    </main>
+    
+    @yield('content')
+    
     <!-- /corpo principale -->
 
     <!-- pie di pagina -->

@@ -11,9 +11,9 @@
         <!-- barra di navigazione -->
         <nav class="main-nav">
             <ul>
-                <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">Prodotti</a></li>
-                <li><a href="#">News</a></li>
+                <li><a class="active" href="{{route('homepage')}}">Home</a></li>
+                <li><a href="/prodotto/0">Prodotti</a></li>
+                <li><a href="{{route('news')}}">News</a></li>
             </ul>
         </nav>
         <!-- /barra di navigazione -->
