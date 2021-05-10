@@ -24,7 +24,7 @@
             @foreach($corta as $pasta)
             <div class="card">
                 <a href="{{route('prodotto', [ 'id' => $pasta['id'] ])}}">
-                    <img src="{{$pasta['src']}}" alt="{{$pasta['titolo']}}">
+                    <img class="zoom" src="{{$pasta['src']}}" alt="{{$pasta['titolo']}}">
                 </a>
             </div>
             @endforeach
