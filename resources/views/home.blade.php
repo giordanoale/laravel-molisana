@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@section('pageTitle')
+Homepage - La Molisana
+@endsection
+
 @section('content')
 <main>
     <!-- sezione "lunghe" -->

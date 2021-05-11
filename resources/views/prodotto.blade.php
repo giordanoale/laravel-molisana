@@ -6,6 +6,10 @@
 <!-- /fontawesome -->
 @endsection
 
+@section('pageTitle')
+Prodotti - La Molisana
+@endsection
+
 @section('content')
 
 <section class="prodotto">
